@@ -1,0 +1,39 @@
+/* container_style.css
+   External CSS for styling the output table
+   Author: Cam'ron Manning
+   CSC Concentration: Information Systems
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #0066cc;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto 30px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+p {
+  text-align: center;
+}
